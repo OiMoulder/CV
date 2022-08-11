@@ -3,32 +3,50 @@
 **_12 Pauline Gardens, Billericay, Essex, CM12 0LB_**  
 **_+44 (0)7723389297_**  
 **_Josh.Moulder12@gmail.com_**  
-**_[LinkedIn Page](http://uk.linkedin.com/in/joshmoulder)_**  
+**_[https://uk.linkedin.com/in/joshmoulder](https://uk.linkedin.com/in/joshmoulder)_**  
+**_[https://github.com/oimoulder](https://github.com/oimoulder)_**  
   
 ## PERSONAL PROFILE  
   
-I have over 11 years’ experience working in various positions in busy technical environments. I have acquired a wide range of skills needed to solve problems from the simplest to the most complex and constantly continue to expand on these. I have experience working in small, medium, and enterprise sized business environments.  I also possess good soft skills to compliment my technical skillsets.  
+I have over 12 years’ experience working in various positions in busy technical environments. I have acquired a wide range of skills needed to solve problems from the simplest to the most complex and constantly continue to expand on these. I have experience working in small, medium, and enterprise sized business environments.  I also possess good soft skills to compliment my technical skillsets.  
   
 I am always looking for challenges to help me improve both professionally and personally. I possess the ability to prioritise and self-manage which has helped me to take initiative and be more multifunctional, I am comfortable both working in a team or individually to tight deadlines.  
   
 ## EMPLOYMENT HISTORY  
+
+### Kallidus  
+**_DevOps Engineer_**  
+April 2022 - August 2022  
+Remote Working  
+  
+- Working as a member of the Infrastructure Team in a DevOps capacity  
+  
+- Migrating the current Infrastructure As Code (IAC) tools (Azure ARM and Powershell) to Terraform  
+  
+- Creating a new Wiki in Azure DevOps in a Markdown format, creating new documentation, and collating existing information stored in Microsoft OneNote, Product Backlog Items, and Word Documents  
+  
+- Creating pipelines in Azure DevOps  
+  
+- Creating a new Postix Email solution, running in Kubernetes, to decomission the 2 Azure Virtual Machines  
+  
+- Windows Systems Administration  
   
 ### Glasswall Solutions  
 **_Site Reliability Engineer / DevOps Engineer_**  
-June 2020 - Present  
+June 2020 - April 2022  
 Remote Working  
   
-- Working as a member of SRE/DevOps Team, providing 24x7 support using Pagerduty for the Glasswall Email service 
+- Working as a member of SRE/DevOps Team, providing 24x7 support using Pagerduty for Glasswall products 
 
-- Following the Google SRE Guidelines to improve the reliability and performance for our Glasswall Email services. 
+- Following the Google SRE Guidelines to improve the reliability and performance for our Glasswall Cloud services. 
 
 - Working using a Kanban methodolgy to maximise the effectiveness and transparency of the work carried out, especially within the team (easy to pick up or follow other team members work) 
 
 - Leading a project to take our existing Glasswall Email SaaS product from a shared multi-tenancy service, to be able to create a full deployment of the service for a single client 
 
-	- Previous deployment used Pulumi to create majority of the infrastructure, then manual deployments from the DevOps pipelines of each microservice 
-
-	- New deployment uses a Python script to deploy the complete base and main infrastructure using Terraform, then automatically deploys the microservices in parallel 
+	- Previous deployment used Pulumi to create majority of the infrastructure, then manual deployments from the DevOps pipelines of each microservice - Took my manager <2 Weeks to deploy, not including design, planning, conversations, etc.  
+  
+	- New deployment uses a Python script to deploy the complete base and main infrastructure using Terraform, then automatically deploys the microservices in parallel - New deployment took around 1 hour to complete
 
 - Full administration of technologies used and supported by the SRE Team, and other teams – Azure, AWS, Datadog, Github, Docker Hub. 
 
