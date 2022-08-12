@@ -30,8 +30,8 @@ Remote Working
 - Creating a new Postix Email solution, running in Kubernetes, to decomission the 2 Azure Virtual Machines  
   
 - Windows Systems Administration  
-
-- Azure Kubernetes administration (Editing and deploying a PV.yaml and PVC.yaml to change Persistent Volume's size, Helm chart creation and maintenance, fixing issues in existing deployments/pods)
+  
+- Azure Kubernetes administration (Editing and deploying a PV.yaml and PVC.yaml to change Persistent Volume's size, Helm chart creation and maintenance, fixing issues in existing deployments/pods)  
   
 ### Glasswall Solutions  
 **_Site Reliability Engineer / DevOps Engineer_**  
