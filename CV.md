@@ -37,6 +37,8 @@ June 2020 - April 2022
 Remote Working  
   
 - Working as a member of SRE/DevOps Team, providing 24x7 support using Pagerduty for Glasswall products 
+  
+- Main focus was on the maintenance, uptime, and releases for the Glasswall Email product, an solution built on Azure Kubernetes Service, utilising various resources like Azure SQL, Azure Cache for Redis, Storage Accounts, Traffic Managers, etc.
 
 - Following the Google SRE Guidelines to improve the reliability and performance for our Glasswall Cloud services. 
 
@@ -46,8 +48,14 @@ Remote Working
 
 	- Previous deployment used Pulumi to create majority of the infrastructure, then manual deployments from the DevOps pipelines of each microservice - Took my manager <2 Weeks to deploy, not including design, planning, conversations, etc.  
   
-	- New deployment uses a Python script to deploy the complete base and main infrastructure using Terraform, then automatically deploys the microservices in parallel - New deployment took around 1 hour to complete
+	- New deployment uses a Python script to deploy the complete base and main infrastructure using Terraform, then automatically deploys the microservices in parallel - New deployment took around 1 hour to complete  
 
+	- Further iteration removed the Python script in favour of an Azure Pipeline Release, utilising a Variable Group to create the TFVars, rather than the person running the deployment manually finding the information, then adding the TFVars file, and running a pull request  
+
+	- We initially had 4 Muli Tenant Production Kubernetes Clusters, 4 Non-Production Kubernetes Clusters, and 3 Single Tenant Production Kubernetes Clusters  
+
+	- After the project we had 4 Multi Tenant Production Kubernetes Clusters, 4 Non-Production Kubernetes Clusters, and <20 Single Tenant Production Kubernetes Clusters  
+  
 - Full administration of technologies used and supported by the SRE Team, and other teams – Azure, AWS, Datadog, Github, Docker Hub. 
 
 - Standard CI/CD practises of using Git repos with our policies applied to merge all changes using a Pull Request, enabling automated pipelines with Gated Builds, Unit Tests, Smoke Tests, etc 
