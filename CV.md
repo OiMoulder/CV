@@ -1,6 +1,6 @@
 # Josh Moulder  
   
-**_12 Pauline Gardens, Billericay, Essex, CM12 0LB_**  
+**_Billericay, Essex_**  
 **_+44 (0)7723389297_**  
 **_Josh.Moulder12@gmail.com_**  
 **_[https://uk.linkedin.com/in/joshmoulder](https://uk.linkedin.com/in/joshmoulder)_**  
@@ -8,11 +8,36 @@
   
 ## PERSONAL PROFILE  
   
-I have over 12 years’ experience working in various positions in busy technical environments. I have acquired a wide range of skills needed to solve problems from the simplest to the most complex and constantly continue to expand on these. I have experience working in small, medium, and enterprise sized business environments.  I also possess good soft skills to compliment my technical skillsets.  
+I have over 13 years’ experience working in various positions in busy technical environments. I have acquired a wide range of skills needed to solve problems from the simplest to the most complex and constantly continue to expand on these. I have experience working in small, medium, and enterprise sized business environments. I also possess good soft skills to compliment my technical skillsets.  
   
 I am always looking for challenges to help me improve both professionally and personally. I possess the ability to prioritise and self-manage which has helped me to take initiative and be more multifunctional, I am comfortable both working in a team or individually to tight deadlines.  
   
 ## EMPLOYMENT HISTORY  
+
+### Yell LTD
+**_Senior DevOps Engineer_**
+September 2022 - Present
+Remote Working
+
+- Working as a Senior member of the DevOps and Infrastructure team
+- Leading various projects, including:-
+    - Migrating DNS from internally hosted Windows and Linux servers to Cloudflare Enterprise, using Terraform to manage the DNS Zones, DNS Records, DDOS Protection Rules, DNSSEC, etc. for our business critical domains  
+    - Designing and implementing Hashicorp Vault via the Hashicorp Cloud Platform, using Terraform, Ansible, and Bash scripts. Creating a full documentation library from High Level Designs and decisions, to nuances in the code, and guides for pieces of work that cannot be automated (for example - Secret Zero issue)  
+    - Containerising our NodeJS builds in Jenkins due to NodeJS 14 and 16 end of life dates  
+    - Planning and designing the new Jenkins environment, previously one big Jenkins Virtual Machine in VMware, to have one Jenkins Controller server with multiple service specific build agents  
+    - Implementing Application Security, identifying insecure areas, working with developers to create an easy and unintrusive way to identify and remediate the security issues, investigating Snyk, Veracode, Github Advanced Security, SonarQube, SonarCloud, Semgrep, and more...  
+    - Designing and implementing a VDI solution using Microsoft Azure for offshore employees
+  
+- Working on BAU tasks in the team to restore functionality, remove tech debt, and improve/optimise current workflows, for example:-  
+    - AWS EKS administration of the various Kubernetes clusters, upgrading clusters to newer versions, upgrading the Nginx Ingress Controller, optimising the node and pod resources, creating deployments of applications and cronjobs, optimising the HPA and resources of applications  
+    - Jenkins pipeline administration - creation of new pipelines, decommissioning pipelines, optimising current pipelines for better/quick pipeline runs, upgrading Jenkins to the lately version  
+    - Administration of our Github Organisation - Creating and removing repo's, user administration, creation and maintenance of Github Actions workflows, implementation and administration of Dependabot  
+    - Terraform administration - Upgrading projects from 1.0.6 to 1.4.5, refactoring Terraform HCL code for shared modules and projects, creating and maintaining projects for resources and applications  
+    - AWS Administration - IAM policies, creation, maintenance and administration of S3 buckets, API Gateways, VPCs and Transit Gateways, Lambdas, ECR, EC2, Route53, and more  
+    - Working from the Jira Service Desk Queue on a weekly rota for issues raised by users, developers, product owners, and Datadog alerts  
+    - Datadog administration - Creating log pipelines, creating and updating metrics, monitors, synthetic tests  
+    - Documentation library creation and updating to bring documentation to what I call "Delivery Driver Documentation" level - we should be able to grab a delivery driver when dropping something off, sit them in front of the documentation, and they should be able to complete the task  
+    - Mentoring and knowledge transfer sessions, building and instilling the DevOps culture and workflows in the team, as well as raising the knowledge levels within the team - the why we do things a certain way, not just the how  
 
 ### Kallidus  
 **_DevOps Engineer_**  
